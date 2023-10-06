@@ -10,6 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import me.proton.jobforandroid.weatherappcompose.screens.MainScreen
 import me.proton.jobforandroid.weatherappcompose.ui.theme.WeatherAppComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -17,7 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             WeatherAppComposeTheme {
-
+                MainScreen()
             }
         }
     }
