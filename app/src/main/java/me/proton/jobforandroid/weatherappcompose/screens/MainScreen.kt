@@ -81,13 +81,11 @@ fun MainScreen() {
                             .padding(top = 3.dp, end = 8.dp)
                         )
                 }
-
                 Text(
                     text = "Lisakovsk",
                     style = TextStyle(fontSize = 24.sp),
                     color = Color.Black
                 )
-
                 Text(
                     text = "Lisakovsk",
                     style = TextStyle(fontSize = 36.sp),
