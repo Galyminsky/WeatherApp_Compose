@@ -57,6 +57,12 @@ fun MainScreen() {
                 modifier = Modifier.fillMaxWidth(),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
+
+                Column(modifier = Modifier.fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+
+                }
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween
@@ -70,9 +76,23 @@ fun MainScreen() {
                     AsyncImage(
                         model = "https://cdn.weatherapi.com/weather/64x64/day/116.png",
                         contentDescription = "img_download",
-                        modifier = Modifier.size(35.dp).padding(top = 3.dp, end = 8.dp)
+                        modifier = Modifier
+                            .size(35.dp)
+                            .padding(top = 3.dp, end = 8.dp)
                         )
                 }
+
+                Text(
+                    text = "Lisakovsk",
+                    style = TextStyle(fontSize = 24.sp),
+                    color = Color.Black
+                )
+
+                Text(
+                    text = "Lisakovsk",
+                    style = TextStyle(fontSize = 36.sp),
+                    color = Color.Black
+                )
             }
         }
     }
